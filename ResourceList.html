@@ -595,6 +595,164 @@ url = {http://papers.nips.cc/paper/5539-depth-map-prediction-from-a-single-image
 </td>
 </tr>
 
+<tr id="Fischer" class="entry">
+	<td>2. b</td>
+	<td>A. Dosovitskiy and P. Fischer</td>
+	<td>FlowNet: Learning Optical Flow with Convolutional Networks <p class="infolinks">[<a href="javascript:toggleInfo('Fischer','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Fischer','review')">Review</a>] [<a href="javascript:toggleInfo('Fischer','bibtex')">BibTeX</a>]</p></td>
+	<td>2015</td>
+	<td>ICCV</td>
+	<td>InProceedings</td>
+	<td><a href="https://arxiv.org/pdf/1504.06852v2.pdf">DOI</a> &nbsp;</td>
+</tr>
+<tr id="abs_Fischer" class="abstract noshow">
+	<td colspan="7"><b>Abstract</b>: 
+	<ul>
+Convolutional neural networks (CNNs) have recently
+been very successful in a variety of computer vision tasks,
+especially on those linked to recognition. Optical flow estimation
+has not been among the tasks where CNNs were successful.
+In this paper we construct appropriate CNNs which
+are capable of solving the optical flow estimation problem
+as a supervised learning task. We propose and compare
+two architectures: a generic architecture and another one
+including a layer that correlates feature vectors at different
+image locations.
+Since existing ground truth datasets are not sufficiently
+large to train a CNN, we generate a synthetic Flying Chairs
+dataset. We show that networks trained on this unrealistic
+data still generalize very well to existing datasets such as
+Sintel and KITTI, achieving competitive accuracy at frame
+rates of 5 to 10 fps.
+
+	</ul>
+	</td>
+</tr>
+<tr id="rev_Fischer" class="review noshow">
+	<td colspan="7"><b>Review</b>: 
+	<ul>
+	  <li>Uses CNN for optical flow. </li>
+	</ul></td>
+</tr>
+<tr id="bib_Fischer" class="bibtex noshow">
+<td colspan="7"><b>BibTeX</b>:
+<pre>
+@InProceedings{DFIB15,
+  author       = "A. Dosovitskiy and P. Fischer and E. Ilg and P. H{\"a}usser and C. Haz\ırba\ş and V. Golkov and P. v.d. Smagt and D. Cremers and T. Brox",
+  title        = "FlowNet: Learning Optical Flow with Convolutional Networks",
+  booktitle    = "IEEE International Conference on Computer Vision (ICCV)",
+  month        = "Dec",
+  year         = "2015",
+  url          = "http://lmb.informatik.uni-freiburg.de//Publications/2015/DFIB15"
+}
+</pre>
+</td>
+</tr>
+
+<tr id="Shen" class="entry">
+	<td>2. c</td>
+	<td>B. Li and  C. Shen and  Y. Dai</td>
+	<td>Depth and surface normal estimation from monocular images using regression on deep features and hierarchical {CRFs}<p class="infolinks">[<a href="javascript:toggleInfo('Shen','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('Shen','review')">Review</a>] [<a href="javascript:toggleInfo('Shen','bibtex')">BibTeX</a>]</p></td>
+	<td>2015</td>
+	<td>CVPR</td>
+	<td>InProceedings</td>
+	<td><a href="https://arxiv.org/pdf/1504.06852v2.pdf">DOI</a> &nbsp;</td>
+</tr>
+<tr id="abs_Shen" class="abstract noshow">
+	<td colspan="7"><b>Abstract</b>: 
+	<ul>
+Convolutional neural networks (CNNs) have recently
+been very successful in a variety of computer vision tasks,
+especially on those linked to recognition. Optical flow estimation
+has not been among the tasks where CNNs were successful.
+In this paper we construct appropriate CNNs which
+are capable of solving the optical flow estimation problem
+as a supervised learning task. We propose and compare
+two architectures: a generic architecture and another one
+including a layer that correlates feature vectors at different
+image locations.
+Since existing ground truth datasets are not sufficiently
+large to train a CNN, we generate a synthetic Flying Chairs
+dataset. We show that networks trained on this unrealistic
+data still generalize very well to existing datasets such as
+Sintel and KITTI, achieving competitive accuracy at frame
+rates of 5 to 10 fps.
+
+	</ul>
+	</td>
+</tr>
+<tr id="rev_Shen" class="review noshow">
+	<td colspan="7"><b>Review</b>: 
+	<ul>
+	  <li>Uses CRFs for depth estimation. </li>
+	</ul></td>
+</tr>
+<tr id="bib_Shen" class="bibtex noshow">
+<td colspan="7"><b>BibTeX</b>:
+<pre>
+ @inproceedings{CVPR15h,
+   author    = "B. Li and  C. Shen and  Y. Dai and  A. {van den Hengel} and  M. He",
+   title     = "Depth and surface normal estimation from monocular images using regression on deep features and hierarchical {CRFs}",
+   booktitle = "IEEE Conference on Computer Vision and Pattern Recognition (CVPR'15)",
+   year      = "2015",
+ }
+</pre>
+</td>
+</tr>
+
+<tr id="LeCun" class="entry">
+	<td>2. d</td>
+	<td>Jure Zbontar and Yann LeCun</td>
+	<td>Stereo Matching by Training a Convolutional Neural Network to Compare
+       <br>Image Patches<p class="infolinks">[<a href="javascript:toggleInfo('LeCun','abstract')">Abstract</a>] [<a href="javascript:toggleInfo('LeCun','review')">Review</a>] [<a href="javascript:toggleInfo('LeCun','bibtex')">BibTeX</a>]</p></td>
+	<td>2016</td>
+	<td>CoRR</td>
+	<td>article</td>
+	<td><a href="https://arxiv.org/pdf/1510.05970v2.pdf">DOI</a> &nbsp;</td>
+</tr>
+<tr id="abs_LeCun" class="abstract noshow">
+	<td colspan="7"><b>Abstract</b>: 
+	<ul>
+We present a method for extracting depth information from a rectified image pair. Our
+approach focuses on the first stage of many stereo algorithms: the matching cost computation.
+We approach the problem by learning a similarity measure on small image patches
+using a convolutional neural network. Training is carried out in a supervised manner by
+constructing a binary classification data set with examples of similar and dissimilar pairs
+of patches. We examine two network architectures for this task: one tuned for speed, the
+other for accuracy. The output of the convolutional neural network is used to initialize the
+stereo matching cost. A series of post-processing steps follow: cross-based cost aggregation,
+semiglobal matching, a left-right consistency check, subpixel enhancement, a median
+filter, and a bilateral filter. We evaluate our method on the KITTI 2012, KITTI 2015, and
+Middlebury stereo data sets and show that it outperforms other approaches on all three
+data sets.
+	</ul>
+	</td>
+</tr>
+<tr id="rev_LeCun" class="review noshow">
+	<td colspan="7"><b>Review</b>: 
+	<ul>
+	  <li>Uses image patches. </li>
+	</ul></td>
+</tr>
+<tr id="bib_LeCun" class="bibtex noshow">
+<td colspan="7"><b>BibTeX</b>:
+<pre>
+@article{DBLP:journals/corr/ZbontarL15,
+  author    = {Jure Zbontar and
+               Yann LeCun},
+  title     = {Stereo Matching by Training a Convolutional Neural Network to Compare
+               Image Patches},
+  journal   = {CoRR},
+  volume    = {abs/1510.05970},
+  year      = {2015},
+  url       = {http://arxiv.org/abs/1510.05970},
+  timestamp = {Sun, 01 Nov 2015 17:30:45 +0100},
+  biburl    = {http://dblp.uni-trier.de/rec/bib/journals/corr/ZbontarL15},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+</pre>
+</td>
+</tr>
+
 <tr id="id4" class="parent">
 	<td>3 </td>
     <td colspan="6"> Related papers: </td>
