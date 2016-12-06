@@ -36,7 +36,7 @@ called Multi Scale Network [2]: one that makes a coarse global prediction based 
 
 <DIV id="id_1_2">
 <P class="p22 ft10"><SPAN class="ft10"><H3> A.&nbsp;&nbsp; Stereo ConvNet Architecture </H3></P>
-<P class="p23 ft9">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The images and ground truth depth maps used for training, validation and testing are produced by varying orientations of the 3D model generated using the Blender software tool. As our first step, we use SteroConvNet [6] and the first half of the network is shown below. Second half of the network is the mirror image of the last convolution layer, replacing convolution with deconvolution and pooling with upscaling. Input Image even though consists of concatenated left and right image pairs , the network takes it as two separate images. Here, the reference output label is the ground truth depth map generated using the Blender's "Mist" function. 
+<P class="p23 ft9">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The images and ground truth depth maps used for training, validation and testing are produced by varying orientations of the 3D model generated using the Blender software tool. As our first step, we use SteroConvNet [6] and the first half of the network is shown below. Second half of the network is the mirror image of the last convolution layer, replacing convolution with deconvolution and pooling with upscaling. Input Image, even though consists of concatenated left and right image pairs , the network takes it as two separate images. Here, the reference output label is the ground truth depth map generated using the Blender's "Mist" function. 
 </P>
 </DIV>
 ![image](https://cloud.githubusercontent.com/assets/11435669/20928225/cc7f1b58-bb92-11e6-9217-fa0811db36bd.png)
