@@ -100,7 +100,7 @@ Patched Deeper Stereo ConvNet Architecture
 <P class="p15 ft6"><H3> Patched Deeper Stereo ConvNet Architecture: </H3></P>
 ![examples](https://cloud.githubusercontent.com/assets/11435669/20932444/a7e2b2ae-bba2-11e6-8bfa-d8b2e5dca250.png)
 
-<P class="p15 ft6"> <H3> 3D modelling for Patched Deeper Stereo ConvNet Architecture: </H3> </P>
+<P class="p15 ft6"> <H3> 3D modeling for Patched Deeper Stereo ConvNet Architecture: </H3> </P>
 
 | Image | Expected output | Derived output |
 | ------------- | ------------- | ------------- |
