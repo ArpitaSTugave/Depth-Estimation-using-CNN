@@ -43,7 +43,7 @@ called Multi Scale Network [2]: one that makes a coarse global prediction based 
 <P class="p15 ft6"> Stereo ConvNet Architecture </P>
 <DIV id="id_1_3">
 <P class="p80 ft10"><SPAN class="ft10"><H3> B.&nbsp;&nbsp; Deeper Stereo ConvNet Architecture </H3></P>
-<P class="p79 ft24">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In Deeper Stereo ConvNet, input remains constant but architecture is modified with an extra convolution and deconvolution layer. Also, depth of the filters are increased referring to [3] in order to capture more details.
+<P class="p79 ft24">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In Deeper Stereo ConvNet, input remains constant but architecture is modified with an extra convolution and deconvolution layer. Also, depth of the filters is increased referring to [3] in order to capture more details.
 </P>
 </DIV>
 
