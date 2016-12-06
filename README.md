@@ -93,14 +93,20 @@ Patched Deeper Stereo ConvNet Architecture
 </P>
 </DIV>
 
+<P class="p15 ft6"><H3> Stereo ConvNet Architecture: </H3></P>
 ![examples](https://cloud.githubusercontent.com/assets/11435669/20932317/3d7a65d8-bba2-11e6-90d0-0589dc66ccee.png)
-<P class="p15 ft6"> Stereo ConvNet Architecture </P>
+<P class="p15 ft6"><H3> Deeper Stereo ConvNet Architecture: </H3></P>
 ![examples](https://cloud.githubusercontent.com/assets/11435669/20932408/8b2d6d0c-bba2-11e6-977c-10a82ce5e9aa.png)
-<P class="p15 ft6"> Deeper Stereo ConvNet Architecture </P>
+<P class="p15 ft6"><H3> Patched Deeper Stereo ConvNet Architecture: </H3></P>
 ![examples](https://cloud.githubusercontent.com/assets/11435669/20932444/a7e2b2ae-bba2-11e6-8bfa-d8b2e5dca250.png)
-<P class="p15 ft6"> Patched Deeper Stereo ConvNet Architecture </P>
 
-<P class="p15 ft6"> 3D modelling for Patched Deeper Stereo ConvNet Architecture: </P>
+<P class="p15 ft6"> <H3> 3D modelling for Patched Deeper Stereo ConvNet Architecture: </H3> </P>
+
+| Image | Expected output | Derived output |
+| ------------- | ------------- | ------------- |
+| ![1_s](https://cloud.githubusercontent.com/assets/11435669/20933414/f20f8d4a-bba5-11e6-98a3-849b483ea88f.PNG)  | ![2_s](https://cloud.githubusercontent.com/assets/11435669/20934331/bd2196ac-bba8-11e6-83c9-89f051d5d19f.gif)  | ![3_s](https://cloud.githubusercontent.com/assets/11435669/20934437/1e552ed4-bba9-11e6-932c-1a5c31ef9755.gif)  |
+| ![4_s](https://cloud.githubusercontent.com/assets/11435669/20934176/396336e0-bba8-11e6-813f-490800551b6c.PNG)  | ![5_s](https://cloud.githubusercontent.com/assets/11435669/20934515/674ab582-bba9-11e6-998d-36f8ccffe2a2.gif)
+  | ![6_s](https://cloud.githubusercontent.com/assets/11435669/20934002/c49369d4-bba7-11e6-9cbd-6be921976ee2.gif) |
 
 
 <DIV id="id_1">
