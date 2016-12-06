@@ -24,12 +24,12 @@ and finer details.
 <P class="p15 ft6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A fully automatic 2D-to-3D conversion algorithm: Deep3D [1] that takes 2D images or video frames as input and outputs 3D stereo image pairs. David Eigen from NYU proposed a single monocular image based architecture that employs two deep network stacks 
 called Multi Scale Network [2]: one that makes a coarse global prediction based on the entire image, and another that refines this prediction locally. It is trained on real world dataset. “FlowNet: Learning Optical Flow with Convolutional Networks” [3] uses video created virtually to make the network learn motion parameters and hence forth extract optical flow. “Stereo Matching by Training a Convolutional Neural Network to Compare Image Patches” [4] a method for extracting depth information from stereo data and their respective patches. Similar to [4] “Depth and surface normal estimation from monocular images using regression on deep features and hierarchical {CRFs}” [5] uses different scale of image patches to extract depth information. 
 </P>
+</DIV>
 ![image](https://cloud.githubusercontent.com/assets/11435669/20927710/c855abca-bb90-11e6-9dd1-3fe86007c398.png)
 <P class="p15 ft6"> Multi Scale network </P>
 ![image](https://cloud.githubusercontent.com/assets/11435669/20927750/f034fe20-bb90-11e6-9cb8-262d661d205a.png)
 ![image](https://cloud.githubusercontent.com/assets/11435669/20927757/f4e5f3b6-bb90-11e6-91c3-ba2bf66dacb0.png)
 <P class="p15 ft6"> FlowNet </P>
-FlowNet
 <DIV id="id_2_4">
 <P class="p20 ft6"><H2> Methods </H2></P>
 </DIV>
@@ -57,34 +57,39 @@ FlowNet
 <P class="p15 ft6"> Patched Deeper Stereo ConvNet Architecture </P>
 <DIV id="id_1">
 <P class="p80 ft10"><SPAN class="ft10"><H2> Results </H2></P>
-<P class="p117 ft9">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<NOBR>
+<P class="p117 ft9">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 Stereo ConvNet Architecture
-+ smooth without holes
-+ coarse structure preserved
--Blurred at edges
--Sharp structures lost
--Fine objects smeared or lost.
-Time to test = 20 s
+<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ smooth without holes
+<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ coarse structure preserved
+<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Blurred at edges
+<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Sharp structures lost
+<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Fine objects smeared or lost.
+<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Time to test = 20 s
+</P>
+</DIV>
 
-
+<DIV id="id_1">
+<P class="p117 ft9">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 Deeper Stereo ConvNet Architecture
-+ smooth without holes
-+ coarse structure preserved
-+ Edges are sharper
--Still noise at the edges
--Fine details/objects smeared or lost.
-Note:The increased depth of the network learns more detail about the scene.
-Time to test = 70 s
+<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ smooth without holes
+<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ coarse structure preserved
+<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ Edges are sharper
+<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Still noise at the edges
+<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Fine details/objects smeared or lost.
+<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Note:The increased depth of the network learns more detail about the scene.
+<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Time to test = 70 s
+</P>
+</DIV>
 
-
+<DIV id="id_1">
+<P class="p117 ft9">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 Patched Deeper Stereo ConvNet Architecture
-+ smooth without holes
-+ Fine structure preserved
-+ Image predicted with less noise. 
--Time to train and test increases.
-Note:The increased depth and increased data resolution of the network learns more detail about the scene.
-Time to test = 145 s
-
+<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ smooth without holes
+<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ Fine structure preserved
+<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ Image predicted with less noise. 
+<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Time to train and test increases.
+<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Note:The increased depth and increased data resolution of the network learns more <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;detail about the scene.
+<br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Time to test = 145 s
 </P>
 </DIV>
 
