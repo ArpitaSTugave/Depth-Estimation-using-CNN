@@ -105,8 +105,7 @@ Patched Deeper Stereo ConvNet Architecture
 | Image | Expected output | Derived output |
 | ------------- | ------------- | ------------- |
 | ![1_s](https://cloud.githubusercontent.com/assets/11435669/20933414/f20f8d4a-bba5-11e6-98a3-849b483ea88f.PNG)  | ![2_s](https://cloud.githubusercontent.com/assets/11435669/20934331/bd2196ac-bba8-11e6-83c9-89f051d5d19f.gif)  | ![3_s](https://cloud.githubusercontent.com/assets/11435669/20934437/1e552ed4-bba9-11e6-932c-1a5c31ef9755.gif)  |
-| ![4_s](https://cloud.githubusercontent.com/assets/11435669/20934176/396336e0-bba8-11e6-813f-490800551b6c.PNG)  | ![5_s](https://cloud.githubusercontent.com/assets/11435669/20934515/674ab582-bba9-11e6-998d-36f8ccffe2a2.gif)
-  | ![6_s](https://cloud.githubusercontent.com/assets/11435669/20934002/c49369d4-bba7-11e6-9cbd-6be921976ee2.gif) |
+| ![4_s](https://cloud.githubusercontent.com/assets/11435669/20934176/396336e0-bba8-11e6-813f-490800551b6c.PNG)  | ![5_s](https://cloud.githubusercontent.com/assets/11435669/20934515/674ab582-bba9-11e6-998d-36f8ccffe2a2.gif) | ![6_s](https://cloud.githubusercontent.com/assets/11435669/20934002/c49369d4-bba7-11e6-9cbd-6be921976ee2.gif) |
 
 
 <DIV id="id_1">
